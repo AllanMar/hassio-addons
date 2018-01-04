@@ -17,4 +17,4 @@ ENV FLOWS=flows.json
 COPY settings.js /
 COPY run.sh /
 RUN chmod a+x /run.sh
-CMD [ "/run.sh" ]
+CMD modprobe i2c-dev && /run.sh
