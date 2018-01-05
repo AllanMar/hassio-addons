@@ -16,7 +16,6 @@
   "startup": "application",
   "boot": "auto",
   "host_network": true,
-  "privileged":"SYS_RAWIO",
   "options": {
     "ssl": false,
     "certfile": "fullchain.pem",
